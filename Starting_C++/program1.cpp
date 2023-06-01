@@ -18,7 +18,7 @@ void studentPro(){
 };
 
 int main(){
-     Student s1,s2;
+    Student s1,s2;
     cout<<"enter name";
     cin>>s1.name;
     cout<<"enter address";
