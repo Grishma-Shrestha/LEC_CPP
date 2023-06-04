@@ -11,13 +11,14 @@ void studentApp(){
 }
 
 void studentPro(){
-    cout<<"student program";
+    cout<<"\nstudent program";
 
 }
 
 };
 
-int main(){
+int main()
+{
     Student s1,s2;
     cout<<"enter name";
     cin>>s1.name;
