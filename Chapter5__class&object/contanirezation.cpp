@@ -28,7 +28,7 @@ class B{
     void showdata()
     {
         a.showdata();
-        cout<<"the value of b is"<<b;
+        cout<<"\nthe value of b is"<<b;
     }
 };
 
