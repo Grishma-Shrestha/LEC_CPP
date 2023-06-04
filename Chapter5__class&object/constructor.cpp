@@ -8,7 +8,7 @@ class Wall{
     public:
     Wall(){                  //has the same name as class and no return type
         length=15;
-        cout<<"Length="<<length;
+        cout<<"length="<<length;
     }
 };           
 
