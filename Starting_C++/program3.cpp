@@ -11,11 +11,12 @@ class Room{
         cout<<"The area of the room is:"<<length*breadth;
     }
     void calculateVolume(){
-        cout<<"The volume of the room is:"<<length*breadth*height;
+        cout<<"\nThe volume of the room is:"<<length*breadth*height;
     }
 };
 
-int main(){
+int main()
+{
     Room r1;
     cout<<"Enter Information"<<endl;
     cout<<"Enter length:";
