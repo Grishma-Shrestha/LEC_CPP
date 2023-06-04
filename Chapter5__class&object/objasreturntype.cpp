@@ -13,7 +13,8 @@ class Example{
     }
 };
 
-int main(){
+int main()
+{
     Example E1,E2,E3;
 
     E1.a=45;
