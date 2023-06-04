@@ -16,11 +16,12 @@ class Room{
         length=a;
         breadth=b;
         height=c;
-        cout<<"The volume of the room is:"<<length*breadth*height;
+        cout<<"\nThe volume of the room is:"<<length*breadth*height;
     }
 };
 
-int main(){
+int main()
+{
     Room r;
     
     r.calculateArea(10,20);
