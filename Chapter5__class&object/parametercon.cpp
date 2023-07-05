@@ -13,23 +13,23 @@ class sathiharu {
         cout<<"constructor call bhayo ta?";
     }
         void ghumeprogram() {
-            cout<<"Oi Espali ghumna jaam bujhis "<<name<<" umm "
+            cout<<"\nOi Espali ghumna jaam bujhis "<<name<<" umm "
             <<age<<"ko umer ma hike garna sakinchha masta. ka jane hola ta "
             <<addresss<<" jada thik hola?";
         }
 };
  
 int main() {
-    sathiharu firstfriend("gs", "bansh", 19), secondfriend("ts", "durbar", 20)
+    sathiharu firstfriend("gs", "bansh", 19), secondfriend("ts", "durbar", 20);
     // firstfriend.name = "enzela";
     // firstfriend.age = 22;
     // firstfriend.addresss = "Pilotbaba";
-    // firstfriend.ghumeprogram();
+    firstfriend.ghumeprogram();
  
-//     secondfriend.name = "enzela2";
-//     secondfriend.age = 20;
-//     secondfriend.addresss = "pilotbaba";
-//     secondfriend.ghumeprogram();
- 
+    //     secondfriend.name = "enzela2";
+    //     secondfriend.age = 20;
+    //     secondfriend.addresss = "pilotbaba";
+        secondfriend.ghumeprogram();
+    
 }
 
