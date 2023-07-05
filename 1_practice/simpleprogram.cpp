@@ -24,7 +24,7 @@ void showData(){
 };
 
 int main(){
-    friends n1,n2,n3;
+    friends n1,n2,n3,n4;
     n1.getData();
     n2.getData();
     n3.getData();
