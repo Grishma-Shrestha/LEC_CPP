@@ -20,7 +20,7 @@ class vehicle:public car{           //derived class
     public:
     void f(){
         cout<<"I am cool";
-}
+    }
 };
 
 int main()

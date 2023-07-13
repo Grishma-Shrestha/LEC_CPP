@@ -13,9 +13,9 @@ A(int x, int y, int z)
 }
 void showData()
 {
-    cout<<a;
-    cout<<b;
-    cout<<c;
+    cout<<a<<endl;
+    cout<<b<<endl;
+    cout<<c<<endl;
 }
 
 void operator -(){ //operator overloading gareko - lai
@@ -26,16 +26,16 @@ void operator -(){ //operator overloading gareko - lai
 
 void displayData()
 {
-    cout<<a;
-    cout<<b;
-    cout<<c;
+    cout<<a<<endl;
+    cout<<b<<endl;
+    cout<<c<<endl;
 }
 };
 
 int main()
 {
     A obj(2,3,4);
-    obj.showData();
+    //obj.showData();
     -obj;
     obj.displayData();
     return 0;
